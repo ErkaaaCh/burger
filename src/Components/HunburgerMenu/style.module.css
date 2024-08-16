@@ -1,0 +1,19 @@
+.HunburgerMenu {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.HunburgerMenu div {
+  background-color: white;
+  height: 3px;
+  width: ;
+}
+@media (min-width: 500px) {
+  .HunburgerMenu {
+    display: none;
+  }
+}
